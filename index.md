@@ -19,10 +19,13 @@ An individuals class and rank is written into their genetics and, thus, cannot b
 
 Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer
 Powers:
+
 # Tier-1
+
 ## Solis
 - Light
 - Vulnerable to Skia
+
 ### Powers:
 - Photokinesis
 - Create Life
@@ -34,9 +37,11 @@ Powers:
 - Invisibility
 - Illusion creation
 - Light Absorption
+
 ## Skia
 - Darkness
 - Vulnerable to Solis
+
 ### Powers:
 - Erebokinesis
 - Killing Touch
@@ -47,40 +52,52 @@ Powers:
 - Fear Inducement
 - Travel through shadows/use shadows as portals
 - Create Constructs out of Shadows
+
 # Tier-2
+
 ## Tonit
 - Electricity
 - Vulnerability is purely tier-related
+
 ### Powers:
 - Electrokinesis
 - Immunity to Electricity
 - Body is a Superconductor
 - Electromagnetism
 - Electronic Disruption
+
 # Tier-3
+
 ## Petra
 - Earth
 - Vulnerable to Anemos
+
 ### Powers:
 - Geokinesis
 - Denser Bones
 - Thicker Skin
 - Seismic Sense
+
 ## Ignis
 - Fire
 - Vulnerable to Thalass
+
 ### Powers:
 - Pyrokinesis
 - Immunity to Fire
+
 ## Thalass
 - Water
 - Vulnerable to Petra
+
 ### Powers:
 - Hydrokinesis
 - Water Breathing
+
 ## Anemos
 - Air
 - Vulnerable to Ignis
+
 ### Powers:
 - Aerokinesis
 - Flight
