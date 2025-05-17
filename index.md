@@ -22,7 +22,7 @@ Those with higher ranks often heavily rely on their strength, while lower ranks 
 Powers each have a symbol that is, generally, the first initial:
 - `P`etra
 - `I`gnis
-- T`h`
+- T`h`alass
 - `A`nemos
 - `T`onit
 - S`o`lis
