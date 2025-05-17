@@ -28,15 +28,15 @@ Powers each have a symbol that is, generally, the first initial:
 - S`o`lis
 - S`k`ia
 
-Powers:
+# Powers:
 
-# Tier-1
+## Tier-1
 
-## Solis
+### Solis
 - Light
 - Vulnerable to Skia
 
-### Powers:
+#### Powers:
 - Photokinesis
 - Create Life
 - Healing Factor
@@ -48,11 +48,11 @@ Powers:
 - Illusion creation
 - Light Absorption
 
-## Skia
+### Skia
 - Darkness
 - Vulnerable to Solis
 
-### Powers:
+#### Powers:
 - Erebokinesis
 - Killing Touch
 - Necromancy
@@ -63,51 +63,51 @@ Powers:
 - Travel through shadows/use shadows as portals
 - Create Constructs out of Shadows
 
-# Tier-2
+## Tier-2
 
-## Tonit
+### Tonit
 - Electricity
 - Vulnerability is purely tier-related
 
-### Powers:
+#### Powers:
 - Electrokinesis
 - Immunity to Electricity
 - Body is a Superconductor
 - Electromagnetism
 - Electronic Disruption
 
-# Tier-3
+## Tier-3
 
-## Petra
+### Petra
 - Earth
 - Vulnerable to Anemos
 
-### Powers:
+#### Powers:
 - Geokinesis
 - Denser Bones
 - Thicker Skin
 - Seismic Sense
 
-## Ignis
+### Ignis
 - Fire
 - Vulnerable to Thalass
 
-### Powers:
+#### Powers:
 - Pyrokinesis
 - Immunity to Fire
 
-## Thalass
+### Thalass
 - Water
 - Vulnerable to Petra
 
-### Powers:
+#### Powers:
 - Hydrokinesis
 - Water Breathing
 
-## Anemos
+### Anemos
 - Air
 - Vulnerable to Ignis
 
-### Powers:
+#### Powers:
 - Aerokinesis
 - Flight
