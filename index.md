@@ -15,7 +15,7 @@ Each power can be ranked from 1-10, using roman numerals, with `X` being the str
 An individuals class and rank is written into their genetics and, thus, cannot be changed. The rarity of being born a certain rank is logarithmic, i.e:
 - II is 10 times rarer than I
 - IV is 100 times rarer than II
-- VII is 1000 times rarer than IV
+- VII is 1,000 times rarer than IV
 
 Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer
 Powers:
