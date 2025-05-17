@@ -5,12 +5,12 @@ All super powered individuals are sorted by two stats; Their power, and the stre
 
 Each power can be ranked from 1-10, using roman numerals, with `X` being the strongest, and `I` being the weakest. Powers can also be shown as an initial and a rank. Here are some examples:
 - `Petra I`/`P1`
-- `Ignis III`/`I3`
-- `Thalass V`/`H5`
-- `Anemos VII`/`A7`
-- `Tonit IX`/`T9`
-- `Solis II`/`O2`
-- `Skia IV`/`K4`
+- `Ignis II`/`I2`
+- `Thalass III`/`H3`
+- `Anemos IV`/`A4`
+- `Tonit V`/`T5`
+- `Solis VI`/`O6`
+- `Skia VII`/`K7`
 
 An individuals class and rank is written into their genetics and, thus, cannot be changed. The rarity of being born a certain rank is logarithmic, i.e:
 - II is 10 times rarer than I
@@ -28,7 +28,7 @@ Powers each have a symbol that is, generally, the first initial:
 - S`o`lis
 - S`k`ia
 
-It is common to have secondary power, so that symbol will follow the strength of the first in lowercase form:
+It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
 - `P1a`
 - `I2t`
 - `H3o`
