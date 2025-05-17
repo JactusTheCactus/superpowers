@@ -17,7 +17,17 @@ An individuals class and rank is written into their genetics and, thus, cannot b
 - IV is 100 times rarer than II
 - VII is 1,000 times rarer than IV
 
-Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer
+Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer.
+
+Powers each have a symbol that is, generally, the first initial:
+- `Petra`: `P`
+- `Ignis`: `I`
+- `Thalass`: `H`
+- `Anemos`: `A`
+- `Tonit`: `T`
+- `Solis`: `O`
+- `Skia`: `K`
+
 Powers:
 
 # Tier-1
