@@ -1,9 +1,9 @@
 All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Petra, Ignis, Thalass, Anemos, Tonit, Solis, Skia.These powers are divided into three tiers, each rarer than the last:
 - Tier-2 is 100 times rarer than Tier-3
 - Tier-1 is 100 times rarer than Tier-2
-- Tier-1 is 1,000 times rarer than Tier-3
+- Tier-1 is 10,000 times rarer than Tier-3
 
-Each power can be ranked from 1-10, using roman numerals, with `X` being the strongest, and `I` being the weakest. Powers can also be shown as an initial and a rank. Here are three examples:
+Each power can be ranked from 1-10, using roman numerals, with `X` being the strongest, and `I` being the weakest. Powers can also be shown as an initial and a rank. Here are some examples:
 - `Petra I`/`P1`
 - `Ignis III`/`I3`
 - `Thalass V`/`H5`
