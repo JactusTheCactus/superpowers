@@ -28,6 +28,15 @@ Powers each have a symbol that is, generally, the first initial:
 - S`o`lis
 - S`k`ia
 
+It is common to have secondary power, so that symbol will follow the strength of the first in lowercase form:
+- `P1a`
+- `I2t`
+- `H3o`
+- `A4k`
+- `T5p`
+- `O6i`
+- `K7h`
+
 # Powers:
 
 ## Tier-1
