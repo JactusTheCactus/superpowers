@@ -20,13 +20,13 @@ An individuals class and rank is written into their genetics and, thus, cannot b
 Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer.
 
 Powers each have a symbol that is, generally, the first initial:
-- `Petra`: `P`
-- `Ignis`: `I`
-- `Thalass`: `H`
-- `Anemos`: `A`
-- `Tonit`: `T`
-- `Solis`: `O`
-- `Skia`: `K`
+- `P`etra
+- `I`gnis
+- T`h`
+- `A`nemos
+- `T`onit
+- S`o`lis
+- S`k`ia
 
 Powers:
 
