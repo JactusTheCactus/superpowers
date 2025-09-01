@@ -1,4 +1,4 @@
-All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Petra, Ignis, Thalass, Anemos, Tonit, Solis, Skia.These powers are divided into three tiers, each rarer than the last:
+All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Petra, Ignis, Þalass, Anemos, Tonit, Solis, Skia. These powers are divided into three tiers, each rarer than the last:
 - Tier-2 is 100 times rarer than Tier-3
 - Tier-1 is 100 times rarer than Tier-2
 - Tier-1 is 10,000 times rarer than Tier-3
@@ -6,7 +6,7 @@ All super powered individuals are sorted by two stats; Their power, and the stre
 Each power can be ranked from 1-10, using roman numerals, with `X` being the strongest, and `I` being the weakest. Powers can also be shown as an initial and a rank. Here are some examples:
 - `Petra I`/`P1`
 - `Ignis II`/`I2`
-- `Thalass III`/`H3`
+- `Þalass III`/`Þ3`
 - `Anemos IV`/`A4`
 - `Tonit V`/`T5`
 - `Solis VI`/`O6`
@@ -22,7 +22,7 @@ Those with higher ranks often heavily rely on their strength, while lower ranks 
 Powers each have a symbol that is, generally, the first initial:
 - `P`etra
 - `I`gnis
-- T`h`alass
+- `Þ`alass
 - `A`nemos
 - `T`onit
 - S`o`lis
@@ -31,11 +31,11 @@ Powers each have a symbol that is, generally, the first initial:
 It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
 - `P1a`
 - `I2t`
-- `H3o`
+- `Þ3o`
 - `A4k`
 - `T5p`
 - `O6i`
-- `K7h`
+- `K7þ`
 
 # Powers:
 
@@ -99,13 +99,13 @@ It is common to have a secondary power, so that symbol will follow the strength 
 
 ### Ignis
 - Fire
-- Vulnerable to Thalass
+- Vulnerable to Þalass
 
 #### Powers:
 - Pyrokinesis
 - Immunity to Fire
 
-### Thalass
+### Þalass
 - Water
 - Vulnerable to Petra
 
