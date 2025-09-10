@@ -1,17 +1,22 @@
 #!/bin/bash
-
-echo "Pick a fruit by pressing 1–4:"
-echo "1) Apple"
-echo "2) Banana"
-echo "3) Cherry"
-echo "4) Dragonfruit"
-read -n1 -s choice
+echo "Pick an option:"
+echo "1) A"
+echo "2) B"
+echo "3) C"
+echo "4) D"
+read -n1 -s C
 echo
-case $choice in
-    1) selected="Apple" ;;
-    2) selected="Banana" ;;
-    3) selected="Cherry" ;;
-    4) selected="Dragonfruit" ;;
-    *) echo "Invalid choice"; exit 1 ;;
+case $C in
+    1)
+        S="A";;
+    2)
+        S="B";;
+    3)
+        S="C";;
+    4)
+        S="D";;
+    *)
+        echo "Invalid choice";
+        exit 1;;
 esac
-echo "You picked: $selected"
+echo "You picked: $S"
