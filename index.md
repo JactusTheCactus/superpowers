@@ -1,16 +1,16 @@
-All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Petra, Igniſ, Þælæſ, Ænemóſ, Tonit, Soliſ, Skía. These powers are divided into three tiers, each rarer than the last:
+All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Pẹtra, Ịgniſ, Þæ̣læſ, Æ̣nemóſ, Tọnit, Sọliſ, Skị́a. These powers are divided into three tiers, each rarer than the last:
 - Tier-2 is 100 times rarer than Tier-3
 - Tier-1 is 100 times rarer than Tier-2
 - Tier-1 is 10,000 times rarer than Tier-3
 
 Each power can be ranked from 1-10, using roman numerals, with `X` being the strongest, and `I` being the weakest. Powers can also be shown as an initial and a rank. Here are some examples:
-- `Petra I`/`P1`
-- `Igniſ II`/`I2`
-- `Þælæſ III`/`Þ3`
-- `Ænemóſ IV`/`Æ4`
-- `Tonit V`/`T5`
-- `Soliſ VI`/`O6`
-- `Skía VII`/`K7`
+- `Pẹtra I`/`P1`
+- `Ịgniſ II`/`I2`
+- `Þæ̣læſ III`/`Þ3`
+- `Æ̣nemóſ IV`/`Æ4`
+- `Tọnit V`/`T5`
+- `Sọliſ VI`/`O6`
+- `Skị́a VII`/`K7`
 
 An individuals class and rank is written into their genetics and, thus, cannot be changed. The rarity of being born a certain rank is logarithmic, i.e:
 - II is 10 times rarer than I
@@ -20,13 +20,13 @@ An individuals class and rank is written into their genetics and, thus, cannot b
 Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer.
 
 Powers each have a symbol that is, generally, the first initial:
-- `P`etra
-- `I`gniſ
-- `Þ`ælæſ
-- `Æ`nemóſ
-- `T`onit
-- S`o`liſ
-- S`k`ía
+- `P`ẹtra
+- `I`̣gniſ
+- `Þ`æ̣læſ
+- `Æ`̣nemóſ
+- `T`ọnit
+- S`o`̣liſ
+- S`k`ị́a
 
 It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
 - `P1Æ`
@@ -39,9 +39,9 @@ It is common to have a secondary power, so that symbol will follow the strength 
 # Powers
 ```yml
 Tier-1:
-  Soliſ:
+  Sọliſ:
     Element: Light
-    Vulnerability: Skía
+    Vulnerability: Skị́a
     Powers:
       - Photokinesis
       - Create Life
@@ -53,9 +53,9 @@ Tier-1:
       - Invisibility
       - Illusion creation
       - Light Absorption
-  Skía:
+  Skị́a:
     Element: Dark
-    Vulnerability: Soliſ
+    Vulnerability: Sọliſ
     Powers:
       - Erebokinesis
       - Killing Touch
@@ -67,7 +67,7 @@ Tier-1:
       - Travel through shadows/use shadows as portals
       - Create Constructs out of Shadows
 Tier-2:
-  Tonit:
+  Tọnit:
     Element: Energy
     Vulnerability: Tier-Based
     Powers:
@@ -77,29 +77,29 @@ Tier-2:
       - Electromagnetism
       - Electronic Disruption
 Tier-3:
-  Petra:
+  Pẹtra:
     Element: Earth
-    Vulnerability: Ænemóſ
+    Vulnerability: Æ̣nemóſ
     Powers:
       - Geokinesis
       - Denser Bones
       - Thicker Skin
       - Seismic Sense
-  Igniſ:
+  Ịgniſ:
     Element: Fire
-    Vulnerability: Þælæſ
+    Vulnerability: Þæ̣læſ
     Powers:
       - Pyrokinesis
       - Immunity to Fire
-  Þælæſ:
+  Þæ̣læſ:
     Element: Water
-    Vulnerability: Petra
+    Vulnerability: Pẹtra
     Powers:
       - Hydrokinesis
       - Water Breathing
-  Ænemóſ:
+  Æ̣nemóſ:
     Element: Air
-    Vulnerability: Igniſ
+    Vulnerability: Ịgniſ
     Powers:
       - Aerokinesis
       - Flight

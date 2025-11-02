@@ -5,6 +5,7 @@ flag() {
 		[[ -e ".flags/$f" ]] || return 1
 	done
 }
+__=$'\u0323'
 t=$'\u00FE'
 T="${t^}"
 a=$'\u00E6'
@@ -15,21 +16,21 @@ o=$'\u00F3'
 O="${o^}"
 i=$'\u00ED'
 I="${i^}"
-solis="${S}oli$s"
+solis="${S}o${__}li$s"
 solis_="${solis:1:1}"
 solis_="${solis_^}"
-skia="${S}k${i}a"
+skia="${S}k$i${__}a"
 skia_="${skia:1:1}"
 skia_="${skia_^}"
-tonit="Tonit"
+tonit="To${__}nit"
 tonit_="${tonit:0:1}"
-petra="Petra"
+petra="Pe${__}tra"
 petra_="${petra:0:1}"
-ignis="Igni$s"
+ignis="I${__}gni$s"
 ignis_="${ignis:0:1}"
-talas="$T${a}l$a$s"
+talas="$T$a${__}l$a$s"
 talas_="${talas:0:1}"
-anemos="${A}nem$o$s"
+anemos="$A${__}nem$o$s"
 anemos_="${anemos:0:1}"
 exec > README.md
 cat << EOF
