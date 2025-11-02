@@ -1,9 +1,13 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+body,
+p,
+ul li {
 	font: 20pt "Noto Sans", sans-serif !important
 }
-code {
+code,
+pre code {
 	font: 1em "Noto Sans Mono", monospace
 }
 </style>
