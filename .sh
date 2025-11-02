@@ -150,4 +150,5 @@ if flag local; then
 else
 	:
 fi
+./page.sh
 cp README.md index.md

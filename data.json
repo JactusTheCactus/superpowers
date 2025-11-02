@@ -1,0 +1,84 @@
+[
+	{
+		"$solis": {
+			"element": "Light",
+			"vulnerability": "$skia",
+			"powers": [
+				"Photokinesis",
+				"Create Life",
+				"Healing Factor",
+				"Numb to Most Pain",
+				"Radiation Immunity",
+				"Photosynthesis",
+				"Lasers",
+				"Invisibility",
+				"Illusion creation",
+				"Light Absorption"
+			]
+		},
+		"$skia": {
+			"element": "Dark",
+			"vulnerability": "$solis",
+			"powers": [
+				"Erebokinesis",
+				"Killing Touch",
+				"Necromancy",
+				"High Pain Tolerance",
+				"Night Vision",
+				"Cause Blindness",
+				"Fear Inducement",
+				"Travel through shadows/use shadows as portals",
+				"Create Constructs out of Shadows"
+			]
+		}
+	},
+	{
+		"$tonit": {
+			"element": "Energy",
+			"vulnerability": "Tier-Based",
+			"powers": [
+				"Electrokinesis",
+				"Immunity to Electricity",
+				"Body is a Superconductor",
+				"Electromagnetism",
+				"Electronic Disruption"
+			]
+		}
+	},
+	{
+		"$petra": {
+			"element": "Earth",
+			"vulnerability": "$anemos",
+			"powers": [
+				"Geokinesis",
+				"Denser Bones",
+				"Thicker Skin",
+				"Seismic Sense"
+			]
+		},
+		"$ignis": {
+			"element": "Fire",
+			"vulnerability": "$talas",
+			"powers": [
+				"Pyrokinesis",
+				"Immunity to Fire"
+			]
+		},
+		"$talas": {
+			"element": "Water",
+			"vulnerability": "$petra",
+			"powers": [
+				"Hydrokinesis",
+				"Water Breathing"
+			]
+		},
+		"$anemos": {
+			"element": "Air",
+			"vulnerability": "$ignis",
+			"powers": [
+				"Aerokinesis",
+				"Flight"
+			]
+		}
+	}
+]
