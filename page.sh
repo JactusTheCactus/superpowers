@@ -109,14 +109,18 @@ done < <(jq -c "to_entries[]" <<< "$DATA")
 echo \`\`\`
 cat << EOF > index.md
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&display=swap');
 body {
 	font: 20pt "Noto Sans", sans-serif
 }
 code {
-	font: 1em "Fira Code", monospace
+	font: 1em "Noto Sans Mono", monospace
 }
 </style>
 $(cat "README.md")
 EOF
+INDEX=$(cat "index.md")
+INDEX="${INDEX//\`/\\\`}"
+INDEX="${INDEX//  /$'\t'}"
+SCRIPT="console.log(\`"$INDEX"\`.normalize(\"NFD\"))"
+node -e "$SCRIPT" > index.md
