@@ -1,11 +1,12 @@
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap");
-html body div.container-lg.px-3.my-5.markdown-body p,
+body, html body div.container-lg.px-3.my-5.markdown-body p,
 html body div.container-lg.px-3.my-5.markdown-body ul li {
 	font: 20pt "Noto Sans", sans-serif;
 }
-html body div.container-lg.px-3.my-5.markdown-body p .highlighter-rouge div.highlight pre.highlight code span,
+
+code, html body div.container-lg.px-3.my-5.markdown-body p .highlighter-rouge div.highlight pre.highlight code span,
 html body div.container-lg.px-3.my-5.markdown-body ul li .highlighter-rouge div.highlight pre.highlight code span {
 	font: 1em "Noto Sans Mono", monospace;
 }

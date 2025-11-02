@@ -112,12 +112,18 @@ cat << EOF > index.md
 $(node -e "console.log(require(\"sass\").compileString(\`$(cat << EOF_
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap");
+body {
+	font: 20pt "Noto Sans", sans-serif
+}
+code {
+	font: 1em "Noto Sans Mono", monospace
+}
 html body div.container-lg.px-3.my-5.markdown-body {
 	p,
 	ul li {
-		font: 20pt "Noto Sans", sans-serif;
+		@extend body;
 		.highlighter-rouge div.highlight pre.highlight code span {
-			font: 1em "Noto Sans Mono", monospace
+			@extend code
 		}
 	}
 }
