@@ -1,16 +1,26 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+body {
+	font: 20pt "Noto Sans", sans-serif
+}
+code {
+	font: 1em "Fira Code", monospace
+}
+</style>
 All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Pẹtra, Ịgniſ, Þæ̣læſ, Æ̣nemóſ, Tọnit, Sọliſ, Skị́a. These powers are divided into three tiers, each rarer than the last:
 - Tier-2 is 100 times rarer than Tier-3
 - Tier-1 is 100 times rarer than Tier-2
 - Tier-1 is 10,000 times rarer than Tier-3
 
 Each power can be ranked from 1-10, using roman numerals, with `X` being the strongest, and `I` being the weakest. Powers can also be shown as an initial and a rank. Here are some examples:
-- `Pẹtra I`/`P1`
-- `Ịgniſ II`/`I2`
-- `Þæ̣læſ III`/`Þ3`
-- `Æ̣nemóſ IV`/`Æ4`
-- `Tọnit V`/`T5`
-- `Sọliſ VI`/`O6`
-- `Skị́a VII`/`K7`
+- Pẹtra I / P1
+- Ịgniſ II / I2
+- Þæ̣læſ III / Þ3
+- Æ̣nemóſ IV / Æ4
+- Tọnit V / T5
+- Sọliſ VI / O6
+- Skị́a VII / K7
 
 An individuals class and rank is written into their genetics and, thus, cannot be changed. The rarity of being born a certain rank is logarithmic, i.e:
 - II is 10 times rarer than I
@@ -20,22 +30,22 @@ An individuals class and rank is written into their genetics and, thus, cannot b
 Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer.
 
 Powers each have a symbol that is, generally, the first initial:
-- `P`ẹtra
-- `I`̣gniſ
-- `Þ`æ̣læſ
-- `Æ`̣nemóſ
-- `T`ọnit
-- S`o`̣liſ
-- S`k`ị́a
+- P: Pẹtra
+- I: Ịgniſ
+- Þ: Þæ̣læſ
+- Æ: Æ̣nemóſ
+- T: Tọnit
+- O: Sọliſ
+- K: Skị́a
 
 It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
-- `P1Æ`
-- `I2T`
-- `Þ3o`
-- `Æ4k`
-- `T5p`
-- `O6i`
-- `K7þ`
+- P1Æ
+- I2T
+- Þ3o
+- Æ4k
+- T5p
+- O6i
+- K7þ
 # Powers
 ```yml
 Tier-1:

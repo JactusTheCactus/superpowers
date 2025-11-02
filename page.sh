@@ -40,13 +40,13 @@ All super powered individuals are sorted by two stats; Their power, and the stre
 - Tier-1 is 10,000 times rarer than Tier-3
 
 Each power can be ranked from 1-10, using roman numerals, with \`X\` being the strongest, and \`I\` being the weakest. Powers can also be shown as an initial and a rank. Here are some examples:
-- \`$petra I\`/\`${petra_}1\`
-- \`$ignis II\`/\`${ignis_}2\`
-- \`$talas III\`/\`${talas_}3\`
-- \`$anemos IV\`/\`${anemos_}4\`
-- \`$tonit V\`/\`${tonit_}5\`
-- \`$solis VI\`/\`${solis_}6\`
-- \`$skia VII\`/\`${skia_}7\`
+- $petra I / ${petra_}1
+- $ignis II / ${ignis_}2
+- $talas III / ${talas_}3
+- $anemos IV / ${anemos_}4
+- $tonit V / ${tonit_}5
+- $solis VI / ${solis_}6
+- $skia VII / ${skia_}7
 
 An individuals class and rank is written into their genetics and, thus, cannot be changed. The rarity of being born a certain rank is logarithmic, i.e:
 - II is 10 times rarer than I
@@ -56,22 +56,22 @@ An individuals class and rank is written into their genetics and, thus, cannot b
 Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer.
 
 Powers each have a symbol that is, generally, the first initial:
-- \`$petra_\`${petra:1}
-- \`$ignis_\`${ignis:1}
-- \`$talas_\`${talas:1}
-- \`$anemos_\`${anemos:1}
-- \`$tonit_\`${tonit:1}
-- ${solis:0:1}\`${solis:1:1}\`${solis:2}
-- ${skia:0:1}\`${skia:1:1}\`${skia:2}
+- $petra_: $petra
+- $ignis_: $ignis
+- $talas_: $talas
+- $anemos_: $anemos
+- $tonit_: $tonit
+- $solis_: $solis
+- $skia_: $skia
 
 It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
-- \`${petra_}1${anemos_}\`
-- \`${ignis_}2${tonit_}\`
-- \`${talas_}3${solis_,}\`
-- \`${anemos_}4${skia_,}\`
-- \`${tonit_}5${petra_,}\`
-- \`${solis_}6${ignis_,}\`
-- \`${skia_}7${talas_,}\`
+- ${petra_}1${anemos_}
+- ${ignis_}2${tonit_}
+- ${talas_}3${solis_,}
+- ${anemos_}4${skia_,}
+- ${tonit_}5${petra_,}
+- ${solis_}6${ignis_,}
+- ${skia_}7${talas_,}
 EOF
 indent=""
 T_="  "
@@ -107,3 +107,16 @@ while IFS= read -r a_; do
 	done < <(jq -c "to_entries[]" <<< "$TIER")
 done < <(jq -c "to_entries[]" <<< "$DATA")
 echo \`\`\`
+cat << EOF > index.md
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+body {
+	font: 20pt "Noto Sans", sans-serif
+}
+code {
+	font: 1em "Fira Code", monospace
+}
+</style>
+$(cat "README.md")
+EOF

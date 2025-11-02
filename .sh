@@ -151,4 +151,3 @@ else
 	:
 fi
 ./page.sh
-cp README.md index.md
