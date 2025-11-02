@@ -150,3 +150,4 @@ if flag local; then
 else
 	:
 fi
+cp README.md index.md
