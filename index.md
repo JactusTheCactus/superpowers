@@ -1,14 +1,13 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
-body,
-p,
-ul li {
-	font: 20pt "Noto Sans", sans-serif !important
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap");
+html body div.container-lg.px-3.my-5.markdown-body p,
+html body div.container-lg.px-3.my-5.markdown-body ul li {
+	font: 20pt "Noto Sans", sans-serif;
 }
-code,
-pre code {
-	font: 1em "Noto Sans Mono", monospace
+html body div.container-lg.px-3.my-5.markdown-body p .highlighter-rouge div.highlight pre.highlight code span,
+html body div.container-lg.px-3.my-5.markdown-body ul li .highlighter-rouge div.highlight pre.highlight code span {
+	font: 1em "Noto Sans Mono", monospace;
 }
 </style>
 All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Pẹtra, Ịgniſ, Þæ̣læſ, Æ̣nemóſ, Tọnit, Sọliſ, Skị́a. These powers are divided into three tiers, each rarer than the last:
