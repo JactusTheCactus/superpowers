@@ -1,4 +1,4 @@
-All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; {{petra}}, {{ignis}}, {{talas}}, {{anemos}}, {{tonit}}, {{solis}}, {{skia}}. These powers are divided into three tiers, each rarer than the last:
+All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; **{{petra}}**, **{{ignis}}**, **{{talas}}**, **{{anemos}}**, **{{tonit}}**, **{{solis}}**, **{{skia}}**. These powers are divided into three tiers, each rarer than the last:
 
 -   Tier-2 is 100 times rarer than Tier-3
 -   Tier-1 is 100 times rarer than Tier-2
@@ -24,20 +24,20 @@ Those with higher ranks often heavily rely on their strength, while lower ranks 
 
 Powers each have a symbol that is, generally, the first initial:
 
--   {{petra_}}: {{petra}}
--   {{ignis_}}: {{ignis}}
--   {{talas_}}: {{talas}}
--   {{anemos_}}: {{anemos}}
--   {{tonit_}}: {{tonit}}
--   {{solis_}}: {{solis}}
--   {{skia_}}: {{skia}}
+-   **{{petra_}}{{petra_,}}**: {{petra}}
+-   **{{ignis_}}{{ignis_,}}**: {{ignis}}
+-   **{{talas_}}{{talas_,}}**: {{talas}}
+-   **{{anemos_}}{{anemos_,}}**: {{anemos}}
+-   **{{tonit_}}{{tonit_,}}**: {{tonit}}
+-   **{{solis_}}{{solis_,}}**: {{solis}}
+-   **{{skia_}}{{skia_,}}**: {{skia}}
 
 It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
 
--   {{petra_}}1{{anemos_,}}
--   {{ignis_}}2{{tonit_,}}
--   {{talas_}}3{{solis_,}}
--   {{anemos_}}4{{skia_,}}
--   {{tonit_}}5{{petra_,}}
--   {{solis_}}6{{ignis_,}}
--   {{skia_}}7{{talas_,}}
+-   **{{petra_}}1{{anemos_,}}**
+-   **{{ignis_}}2{{tonit_,}}**
+-   **{{talas_}}3{{solis_,}}**
+-   **{{anemos_}}4{{skia_,}}**
+-   **{{tonit_}}5{{petra_,}}**
+-   **{{solis_}}6{{ignis_,}}**
+-   **{{skia_}}7{{talas_,}}**

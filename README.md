@@ -1,4 +1,4 @@
-All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; Pẹtra, Ịgniſ, Þæ̣læſ, Æ̣nemóſ, Tọnit, Sọliſ, Skị́a. These powers are divided into three tiers, each rarer than the last:
+All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; **Pẹtra**, **Ịgniſ**, **Þæ̣læſ**, **Æ̣nemóſ**, **Tọnit**, **Sọliſ**, **Skị́a**. These powers are divided into three tiers, each rarer than the last:
 
 -   Tier-2 is 100 times rarer than Tier-3
 -   Tier-1 is 100 times rarer than Tier-2
@@ -24,23 +24,23 @@ Those with higher ranks often heavily rely on their strength, while lower ranks 
 
 Powers each have a symbol that is, generally, the first initial:
 
--   P: Pẹtra
--   I: Ịgniſ
--   Þ: Þæ̣læſ
--   Æ: Æ̣nemóſ
--   T: Tọnit
--   O: Sọliſ
--   K: Skị́a
+-   **Pp**: Pẹtra
+-   **Ii**: Ịgniſ
+-   **Þþ**: Þæ̣læſ
+-   **Ææ**: Æ̣nemóſ
+-   **Tt**: Tọnit
+-   **Oo**: Sọliſ
+-   **Kk**: Skị́a
 
 It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
 
--   P1æ
--   I2t
--   Þ3o
--   Æ4k
--   T5p
--   O6i
--   K7þ
+-   **`P1æ`**
+-   **`I2t`**
+-   **`Þ3o`**
+-   **`Æ4k`**
+-   **`T5p`**
+-   **`O6i`**
+-   **`K7þ`**
 # Powers
 ## Tier-1:
 ### Sọliſ:
