@@ -33,8 +33,10 @@ talas_="${talas:0:1}"
 anemos="$A${__}nem$o$s"
 anemos_="${anemos:0:1}"
 README="$(cat _README.md | sed -E 's/\{\{([a-z_,]+?)\}\}/${\1}/g')"
+INITIALS="$petra_$ignis_$__$talas_$anemos_$tonit_$solis_$skia_"
+INITIALS="${INITIALS,,}"
+INITIALS="${INITIALS^}"
 eval "echo \"$README\"" > README.md
-T_=$'\u0009'
 FMT() {
 	echo "$(eval echo "$1")"
 }
@@ -42,22 +44,22 @@ log() {
 	echo "$(FMT "$1")" >> README.md
 }
 DATA="$(cat "data.json")"
-echo "# Powers" >> README.md
+echo "## Powers" >> README.md
 while IFS= read -r a_; do
 	N_=$(($(jq -c ".key" <<< "$a_")+1))
 	TIER=$(jq -r ".value" <<< "$a_")
-	log "\\#\\# Tier-$N_:"
+	echo "- ### Tier-$N_" >> README.md
 	while IFS= read -r POWER; do
 		NAME="$(jq -r ".key" <<< "$POWER")"
 		DETAILS="$(jq -r ".value" <<< "$POWER")"
-		echo "$T_- ### $(FMT $NAME):" >> README.md
+		echo -e "\t- #### $(FMT $NAME)" >> README.md
 		EL=$(echo "$DETAILS" | jq -r ".element")
-		log "- Element: **$EL**"
+		echo -e "\t\t- Element: **$EL**" >> README.md
 		VUL="$(echo "$DETAILS" | jq -r ".vulnerability")"
-		log "- Vulnerability: **$VUL**"
-		log "- Powers:"
+		echo -e "\t\t- Vulnerability: **$(FMT $VUL)**" >> README.md
+		echo -e "\t\t- Powers:" >> README.md
 		while IFS= read -r ABILITY; do
-			echo "$T_- **$ABILITY**" >> README.md
+			echo -e "\t\t\t- **$ABILITY**" >> README.md
 		done < <(jq -r ".powers[]" <<< "$DETAILS")
 	done < <(jq -c "to_entries[]" <<< "$TIER")
 done < <(jq -c "to_entries[]" <<< "$DATA")
@@ -69,14 +71,14 @@ body {
 }
 EOF
 )
-STYLE="<style>$(node -e "console.log(require(\"sass\").compileString(\`$STYLE\`).css)")</style>"
-echo $STYLE > index.md
-cat "README.md" >> index.md
+echo "<title>Superpowers</title>" > index.md
+echo "<style>$(node -e "console.log(require(\"sass\").compileString(\`$STYLE\`).css)")</style>" >> index.md
+cat README.md >> index.md
 cat index.md > index.html
 echo "$(cat index.html | sed -E 's/`/\\`/g')" > index.html
 INDEX="$(cat index.html | sed -E 's/ / /g')"
 echo "$(node -e "(async()=>{await import(\"marked\").then(marked=>console.log(marked.parse(\`$INDEX\`.replace(/\`/g,\"\\\`\").replace(/\"/g,\"\\\"\"))))})()")" > index.html
 INDEX="$(cat index.html)"
-INDEX="console.log(\`"$INDEX"\`.normalize(\"NFD\"))"
+INDEX="console.log(\`$INDEX\`.normalize(\"NFD\"))"
 INDEX="$(node -e "$INDEX")"
 echo $INDEX > index.html

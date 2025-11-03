@@ -1,3 +1,5 @@
+<h1>Pịþætok</h1>
+
 All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; **Pẹtra**, **Ịgniſ**, **Þæ̣læſ**, **Æ̣nemóſ**, **Tọnit**, **Sọliſ**, **Skị́a**. These powers are divided into three tiers, each rarer than the last:
 
 -   Tier-2 is 100 times rarer than Tier-3
@@ -41,69 +43,69 @@ It is common to have a secondary power, so that symbol will follow the strength 
 -   **T5p**
 -   **O6i**
 -   **K7þ**
-# Powers
-## Tier-1:
-### Sọliſ:
-- Element: **Light**
-- Vulnerability: **Skị́a**
-- Powers:
-	- **Photokinesis**
-	- **Create Life**
-	- **Healing Factor**
-	- **Numb to Most Pain**
-	- **Radiation Immunity**
-	- **Photosynthesis**
-	- **Lasers**
-	- **Invisibility**
-	- **Illusion creation**
-	- **Light Absorption**
-### Skị́a:
-- Element: **Dark**
-- Vulnerability: **Sọliſ**
-- Powers:
-	- **Erebokinesis**
-	- **Killing Touch**
-	- **Necromancy**
-	- **High Pain Tolerance**
-	- **Night Vision**
-	- **Cause Blindness**
-	- **Fear Inducement**
-	- **Travel through shadows/use shadows as portals**
-	- **Create Constructs out of Shadows**
-## Tier-2:
-### Tọnit:
-- Element: **Energy**
-- Vulnerability: **Tier-Based**
-- Powers:
-	- **Electrokinesis**
-	- **Immunity to Electricity**
-	- **Body is a Superconductor**
-	- **Electromagnetism**
-	- **Electronic Disruption**
-## Tier-3:
-### Pẹtra:
-- Element: **Earth**
-- Vulnerability: **Æ̣nemóſ**
-- Powers:
-	- **Geokinesis**
-	- **Denser Bones**
-	- **Thicker Skin**
-	- **Seismic Sense**
-### Ịgniſ:
-- Element: **Fire**
-- Vulnerability: **Þæ̣læſ**
-- Powers:
-	- **Pyrokinesis**
-	- **Immunity to Fire**
-### Þæ̣læſ:
-- Element: **Water**
-- Vulnerability: **Pẹtra**
-- Powers:
-	- **Hydrokinesis**
-	- **Water Breathing**
-### Æ̣nemóſ:
-- Element: **Air**
-- Vulnerability: **Ịgniſ**
-- Powers:
-	- **Aerokinesis**
-	- **Flight**
+## Powers
+- ### Tier-1
+	- #### Sọliſ
+		- Element: **Light**
+		- Vulnerability: **Skị́a**
+		- Powers:
+			- **Photokinesis**
+			- **Create Life**
+			- **Healing Factor**
+			- **Numb To Most Pain**
+			- **Radiation Immunity**
+			- **Photosynthesis**
+			- **Lasers**
+			- **Invisibility**
+			- **Illusion Creation**
+			- **Light Absorption**
+	- #### Skị́a
+		- Element: **Dark**
+		- Vulnerability: **Sọliſ**
+		- Powers:
+			- **Erebokinesis**
+			- **Killing Touch**
+			- **Necromancy**
+			- **High Pain Tolerance**
+			- **Night Vision**
+			- **Cause Blindness**
+			- **Fear Inducement**
+			- **Travel Through Shadows / Use Shadows As Portals**
+			- **Create Constructs Out Of Shadows**
+- ### Tier-2
+	- #### Tọnit
+		- Element: **Energy**
+		- Vulnerability: **Tier-Based**
+		- Powers:
+			- **Electrokinesis**
+			- **Immunity To Electricity**
+			- **Body Is A Superconductor**
+			- **Electromagnetism**
+			- **Electronic Disruption**
+- ### Tier-3
+	- #### Pẹtra
+		- Element: **Earth**
+		- Vulnerability: **Æ̣nemóſ**
+		- Powers:
+			- **Geokinesis**
+			- **Denser Bones**
+			- **Thicker Skin**
+			- **Seismic Sense**
+	- #### Ịgniſ
+		- Element: **Fire**
+		- Vulnerability: **Þæ̣læſ**
+		- Powers:
+			- **Pyrokinesis**
+			- **Immunity To Fire**
+	- #### Þæ̣læſ
+		- Element: **Water**
+		- Vulnerability: **Pẹtra**
+		- Powers:
+			- **Hydrokinesis**
+			- **Water Breathing**
+	- #### Æ̣nemóſ
+		- Element: **Air**
+		- Vulnerability: **Ịgniſ**
+		- Powers:
+			- **Aerokinesis**
+			- **Flight**

@@ -7,12 +7,12 @@
 				"Photokinesis",
 				"Create Life",
 				"Healing Factor",
-				"Numb to Most Pain",
+				"Numb To Most Pain",
 				"Radiation Immunity",
 				"Photosynthesis",
 				"Lasers",
 				"Invisibility",
-				"Illusion creation",
+				"Illusion Creation",
 				"Light Absorption"
 			]
 		},
@@ -27,8 +27,8 @@
 				"Night Vision",
 				"Cause Blindness",
 				"Fear Inducement",
-				"Travel through shadows/use shadows as portals",
-				"Create Constructs out of Shadows"
+				"Travel Through Shadows / Use Shadows As Portals",
+				"Create Constructs Out Of Shadows"
 			]
 		}
 	},
@@ -38,8 +38,8 @@
 			"vulnerability": "Tier-Based",
 			"powers": [
 				"Electrokinesis",
-				"Immunity to Electricity",
-				"Body is a Superconductor",
+				"Immunity To Electricity",
+				"Body Is A Superconductor",
 				"Electromagnetism",
 				"Electronic Disruption"
 			]
@@ -61,7 +61,7 @@
 			"vulnerability": "$talas",
 			"powers": [
 				"Pyrokinesis",
-				"Immunity to Fire"
+				"Immunity To Fire"
 			]
 		},
 		"$talas": {

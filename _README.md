@@ -1,3 +1,5 @@
+<h1>$INITIALS</h1>
+
 All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; **{{petra}}**, **{{ignis}}**, **{{talas}}**, **{{anemos}}**, **{{tonit}}**, **{{solis}}**, **{{skia}}**. These powers are divided into three tiers, each rarer than the last:
 
 -   Tier-2 is 100 times rarer than Tier-3
