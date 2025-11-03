@@ -71,7 +71,7 @@ body {
 }
 EOF
 )
-echo "<title>Superpowers</title>" > index.md
+echo "<title>$INITIALS</title>" > index.md
 echo "<style>$(node -e "console.log(require(\"sass\").compileString(\`$STYLE\`).css)")</style>" >> index.md
 cat README.md >> index.md
 cat index.md > index.html

@@ -1,9 +1,9 @@
-<title>Superpowers</title>
+<title>Pịþætok</title>
 <style>@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   font: 20pt "Noto Sans", sans-serif;
 }</style>
-<h1>Pịþætok</h1>
+<h1>Superpowers</h1>
 
 All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; **Pẹtra**, **Ịgniſ**, **Þæ̣læſ**, **Æ̣nemóſ**, **Tọnit**, **Sọliſ**, **Skị́a**. These powers are divided into three tiers, each rarer than the last:
 
