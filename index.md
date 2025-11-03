@@ -35,13 +35,13 @@ Powers each have a symbol that is, generally, the first initial:
 
 It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
 
--   **`P1æ`**
--   **`I2t`**
--   **`Þ3o`**
--   **`Æ4k`**
--   **`T5p`**
--   **`O6i`**
--   **`K7þ`**
+-   **P1æ**
+-   **I2t**
+-   **Þ3o**
+-   **Æ4k**
+-   **T5p**
+-   **O6i**
+-   **K7þ**
 # Powers
 ## Tier-1:
 ### Sọliſ:
