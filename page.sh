@@ -32,108 +32,52 @@ talas="$T$a${__}l$a$s"
 talas_="${talas:0:1}"
 anemos="$A${__}nem$o$s"
 anemos_="${anemos:0:1}"
-exec > README.md
-cat << EOF
-All super powered individuals are sorted by two stats; Their power, and the strength of that power. There are SEVEN different classifications of power one can have; $petra, $ignis, $talas, $anemos, $tonit, $solis, $skia. These powers are divided into three tiers, each rarer than the last:
-- Tier-2 is 100 times rarer than Tier-3
-- Tier-1 is 100 times rarer than Tier-2
-- Tier-1 is 10,000 times rarer than Tier-3
-
-Each power can be ranked from 1-10, using roman numerals, with \`X\` being the strongest, and \`I\` being the weakest. Powers can also be shown as an initial and a rank. Here are some examples:
-- $petra I / ${petra_}1
-- $ignis II / ${ignis_}2
-- $talas III / ${talas_}3
-- $anemos IV / ${anemos_}4
-- $tonit V / ${tonit_}5
-- $solis VI / ${solis_}6
-- $skia VII / ${skia_}7
-
-An individuals class and rank is written into their genetics and, thus, cannot be changed. The rarity of being born a certain rank is logarithmic, i.e:
-- II is 10 times rarer than I
-- IV is 100 times rarer than II
-- VII is 1,000 times rarer than IV
-
-Those with higher ranks often heavily rely on their strength, while lower ranks are forced to be smart or creative, making lower ranks often a misnomer.
-
-Powers each have a symbol that is, generally, the first initial:
-- $petra_: $petra
-- $ignis_: $ignis
-- $talas_: $talas
-- $anemos_: $anemos
-- $tonit_: $tonit
-- $solis_: $solis
-- $skia_: $skia
-
-It is common to have a secondary power, so that symbol will follow the strength of the first in lowercase form:
-- ${petra_}1${anemos_}
-- ${ignis_}2${tonit_}
-- ${talas_}3${solis_,}
-- ${anemos_}4${skia_,}
-- ${tonit_}5${petra_,}
-- ${solis_}6${ignis_,}
-- ${skia_}7${talas_,}
-EOF
-indent=""
-T_="  "
+README="$(cat _README.md | sed -E 's/\{\{([a-z_,]+?)\}\}/${\1}/g')"
+eval "echo \"$README\"" > README.md
+T_=$'\u0009'
 FMT() {
 	echo "$(eval echo "$1")"
 }
 log() {
-	echo "$indent$(FMT "$1")"
+	echo "$(FMT "$1")" >> README.md
 }
 DATA="$(cat "data.json")"
-echo "# Powers"
-echo \`\`\`yml
+echo "# Powers" >> README.md
 while IFS= read -r a_; do
-	indent=""
 	N_=$(($(jq -c ".key" <<< "$a_")+1))
 	TIER=$(jq -r ".value" <<< "$a_")
-	log "Tier-$N_:"
+	log "\\#\\# Tier-$N_:"
 	while IFS= read -r POWER; do
-		indent=$T_
 		NAME="$(jq -r ".key" <<< "$POWER")"
 		DETAILS="$(jq -r ".value" <<< "$POWER")"
-		log "$NAME:"
+		log "\\#\\#\\# $NAME:"
 		indent+=$T_
 		EL=$(echo "$DETAILS" | jq -r ".element")
-		log "Element: $EL"
+		log "- Element: **$EL**"
 		VUL="$(echo "$DETAILS" | jq -r ".vulnerability")"
-		log "Vulnerability: $VUL"
-		log "Powers:"
-		indent+=$T_
+		log "- Vulnerability: **$VUL**"
+		log "- Powers:"
 		while IFS= read -r ABILITY; do
-			log "- $ABILITY"
+			echo "$T_- **$ABILITY**" >> README.md
 		done < <(jq -r ".powers[]" <<< "$DETAILS")
 	done < <(jq -c "to_entries[]" <<< "$TIER")
 done < <(jq -c "to_entries[]" <<< "$DATA")
-echo \`\`\`
-cat << EOF > index.md
-<style>
-$(node -e "console.log(require(\"sass\").compileString(\`$(cat << EOF_
+font="Noto Sans"
+STYLE=$(cat << EOF
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap");
 body {
-	font: 20pt "Noto Sans", sans-serif
+	font: 20pt "$font", sans-serif
 }
-code {
-	font: 1em "Noto Sans Mono", monospace
-}
-html body div.container-lg.px-3.my-5.markdown-body {
-	p,
-	ul li {
-		@extend body;
-		.highlighter-rouge div.highlight pre.highlight code span {
-			@extend code
-		}
-	}
-}
-EOF_
-)\`).css)")
-</style>
-$(cat "README.md")
 EOF
-INDEX=$(cat "index.md")
-INDEX="${INDEX//\`/\\\`}"
-INDEX="${INDEX//  /$'\t'}"
-SCRIPT="console.log(\`"$INDEX"\`.normalize(\"NFD\"))"
-node -e "$SCRIPT" > index.md
+)
+STYLE="<style>$(node -e "console.log(require(\"sass\").compileString(\`$STYLE\`).css)")</style>"
+echo $STYLE > index.md
+cat "README.md" >> index.md
+cat index.md > index.html
+echo "$(cat index.html | sed -E 's/`/\\`/g')" > index.html
+INDEX="$(cat index.html | sed -E 's/ / /g')"
+echo "$(node -e "(async()=>{await import(\"marked\").then(marked=>console.log(marked.parse(\`$INDEX\`.replace(/\`/g,\"\\\`\").replace(/\"/g,\"\\\"\"))))})()")" > index.html
+INDEX="$(cat index.html)"
+INDEX="console.log(\`"$INDEX"\`.normalize(\"NFD\"))"
+INDEX="$(node -e "$INDEX")"
+echo $INDEX > index.html

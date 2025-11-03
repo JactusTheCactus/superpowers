@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JactusTheCactus/superpowers#readme",
   "dependencies": {
+    "marked": "^16.4.1",
     "sass": "^1.93.3"
   }
 }
