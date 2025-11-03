@@ -50,8 +50,7 @@ while IFS= read -r a_; do
 	while IFS= read -r POWER; do
 		NAME="$(jq -r ".key" <<< "$POWER")"
 		DETAILS="$(jq -r ".value" <<< "$POWER")"
-		log "\\#\\#\\# $NAME:"
-		indent+=$T_
+		echo "$T_- ### $(FMT $NAME):" >> README.md
 		EL=$(echo "$DETAILS" | jq -r ".element")
 		log "- Element: **$EL**"
 		VUL="$(echo "$DETAILS" | jq -r ".vulnerability")"
